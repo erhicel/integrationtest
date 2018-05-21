@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: demoEuro
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: eparra
+Implementation-Vendor-Id: jumbo.europlayas
+Build-Jdk: 1.8.0_121
+Implementation-URL: http://projects.spring.io/spring-boot/demoEuro/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
