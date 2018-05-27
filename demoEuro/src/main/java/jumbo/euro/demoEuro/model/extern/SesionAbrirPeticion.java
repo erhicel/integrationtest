@@ -3,75 +3,66 @@ package jumbo.euro.demoEuro.model.extern;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
 
-@JacksonXmlRootElement(localName="SesionAbrirPeticion")
+@JacksonXmlRootElement(localName = "SesionAbrirPeticion")
 public class SesionAbrirPeticion {
-	
-	@JacksonXmlProperty(localName="codsys")
-	private String	codsys;
 
-	@JacksonXmlProperty(localName="codage")
-	private String	codage;
+    @Override
+    public String toString() {
+        return "SesionAbrirPeticion [codsys=" + codsys + ", codage=" + codage + ", idtusu=" + idtusu + ", pasusu=" + pasusu + ", codidi=" + codidi + "]";
+    }
 
-	@JacksonXmlProperty(localName="idtusu")
-	private String	idtusu;
+    @JacksonXmlProperty(localName = "codsys")
+    private String codsys;
 
-	@JacksonXmlProperty(localName="pasusu")
-	private String	pasusu;
+    @JacksonXmlProperty(localName = "codage")
+    private String codage;
 
-	@JacksonXmlProperty(localName="codidi")
-	private String	codidi;
+    @JacksonXmlProperty(localName = "idtusu")
+    private String idtusu;
 
-	
-	public String getCodsys() {
-		return codsys;
-	}
+    @JacksonXmlProperty(localName = "pasusu")
+    private String pasusu;
 
-	
-	public void setCodsys(String codsys) {
-		this.codsys = codsys;
-	}
+    @JacksonXmlProperty(localName = "codidi")
+    private String codidi;
 
-	
-	public String getCodage() {
-		return codage;
-	}
+    public String getCodsys() {
+        return codsys;
+    }
 
-	
-	public void setCodage(String codage) {
-		this.codage = codage;
-	}
+    public void setCodsys(String codsys) {
+        this.codsys = codsys;
+    }
 
-	
-	public String getIdtusu() {
-		return idtusu;
-	}
+    public String getCodage() {
+        return codage;
+    }
 
-	
-	public void setIdtusu(String idtusu) {
-		this.idtusu = idtusu;
-	}
+    public void setCodage(String codage) {
+        this.codage = codage;
+    }
 
-	
-	public String getPasusu() {
-		return pasusu;
-	}
+    public String getIdtusu() {
+        return idtusu;
+    }
 
-	
-	public void setPasusu(String pasusu) {
-		this.pasusu = pasusu;
-	}
+    public void setIdtusu(String idtusu) {
+        this.idtusu = idtusu;
+    }
 
-	
-	public String getCodidi() {
-		return codidi;
-	}
+    public String getPasusu() {
+        return pasusu;
+    }
 
-	
-	public void setCodidi(String codidi) {
-		this.codidi = codidi;
-	}
-	
-	
+    public void setPasusu(String pasusu) {
+        this.pasusu = pasusu;
+    }
 
+    public String getCodidi() {
+        return codidi;
+    }
 
+    public void setCodidi(String codidi) {
+        this.codidi = codidi;
+    }
 }
